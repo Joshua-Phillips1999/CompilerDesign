@@ -1,0 +1,13 @@
+if(a=0)gotoL5
+L5:t1=b+c
+a=t1
+if(a=1)gotoL3
+L3:t3=q+r
+t4=t3-y
+p=t4
+if(a=2)gotoL1
+L1:t6=h*u
+t7=t6-d
+t8=t7+e
+g=t8
+L2:i=0
