@@ -1,0 +1,9 @@
+switch(a)
+{
+	case 0: {a=b+c;}
+	case 1: {p=q+r;}
+	case 3: {x=y+z-h*u;}
+	default:
+		i=0;
+}
+

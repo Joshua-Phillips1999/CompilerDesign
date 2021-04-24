@@ -1,0 +1,7 @@
+all :
+	flex icg.l
+	yacc -d icg.y -ll
+	gcc lex.yy.c y.tab.c -o icg -ll
+	./icg > 3ac.txt
+	./icg
+	python a.py 
